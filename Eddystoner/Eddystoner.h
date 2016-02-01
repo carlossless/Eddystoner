@@ -8,11 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-//! Project version number for eddystoner.
-FOUNDATION_EXPORT double eddystonerVersionNumber;
+//! Project version number for Eddystoner.
+FOUNDATION_EXPORT double EddystonerVersionNumber;
 
-//! Project version string for eddystoner.
-FOUNDATION_EXPORT const unsigned char eddystonerVersionString[];
+//! Project version string for Eddystoner.
+FOUNDATION_EXPORT const unsigned char EddystonerVersionString[];
 
 #import <Eddystoner/ESSBeaconScanner.h>
 #import <Eddystoner/ESSEddystone.h>

@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F9FC47401C5FCAD400D8D08B /* Eddystoner.h in Headers */ = {isa = PBXBuildFile; fileRef = F9FC47381C5FCAD400D8D08B /* Eddystoner.h */; };
+		F9FC47401C5FCAD400D8D08B /* Eddystoner.h in Headers */ = {isa = PBXBuildFile; fileRef = F9FC47381C5FCAD400D8D08B /* Eddystoner.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F9FC47411C5FCAD400D8D08B /* ESSBeaconScanner.h in Headers */ = {isa = PBXBuildFile; fileRef = F9FC47391C5FCAD400D8D08B /* ESSBeaconScanner.h */; };
 		F9FC47421C5FCAD400D8D08B /* ESSBeaconScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = F9FC473A1C5FCAD400D8D08B /* ESSBeaconScanner.m */; };
 		F9FC47431C5FCAD400D8D08B /* ESSEddystone.h in Headers */ = {isa = PBXBuildFile; fileRef = F9FC473B1C5FCAD400D8D08B /* ESSEddystone.h */; };
 		F9FC47441C5FCAD400D8D08B /* ESSEddystone.m in Sources */ = {isa = PBXBuildFile; fileRef = F9FC473C1C5FCAD400D8D08B /* ESSEddystone.m */; };
-		F9FC47451C5FCAD400D8D08B /* ESSTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = F9FC473D1C5FCAD400D8D08B /* ESSTimer.h */; };
+		F9FC47451C5FCAD400D8D08B /* ESSTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = F9FC473D1C5FCAD400D8D08B /* ESSTimer.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		F9FC47461C5FCAD400D8D08B /* ESSTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = F9FC473E1C5FCAD400D8D08B /* ESSTimer.m */; };
 /* End PBXBuildFile section */
 
@@ -77,10 +77,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9FC47451C5FCAD400D8D08B /* ESSTimer.h in Headers */,
 				F9FC47401C5FCAD400D8D08B /* Eddystoner.h in Headers */,
-				F9FC47431C5FCAD400D8D08B /* ESSEddystone.h in Headers */,
+				F9FC47451C5FCAD400D8D08B /* ESSTimer.h in Headers */,
 				F9FC47411C5FCAD400D8D08B /* ESSBeaconScanner.h in Headers */,
+				F9FC47431C5FCAD400D8D08B /* ESSEddystone.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
