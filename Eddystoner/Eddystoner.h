@@ -16,4 +16,3 @@ FOUNDATION_EXPORT const unsigned char EddystonerVersionString[];
 
 #import <Eddystoner/ESSBeaconScanner.h>
 #import <Eddystoner/ESSEddystone.h>
-#import <Eddystoner/ESSTimer.h>
